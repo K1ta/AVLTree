@@ -2,6 +2,7 @@ package avltree;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 import java.util.TreeSet;
 import org.junit.Test;
 import static org.junit.Assert.*;
@@ -472,7 +473,7 @@ public class AVLTreeTest {
 
     @Test
     public void randomElementsTest() {
-        ArrayList<Integer> list = new ArrayList<>();
+        List<Integer> list = new ArrayList<>();
         AVLTree tree = new AVLTree();
         for (int i = 0; i < 100; i++) {
             list.clear();
